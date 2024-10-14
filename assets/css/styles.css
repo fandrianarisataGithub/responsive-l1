@@ -80,6 +80,7 @@ button,
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
+  
 }
 
 body {
@@ -97,6 +98,7 @@ button {
 h1, h2, h3, h4 {
   color: var(--title-color);
   font-weight: var(--font-medium);
+  text-align: center;
 }
 
 ul {
@@ -149,8 +151,15 @@ svg {
   color: var(--first-color);
 }
 
-.main {
-  overflow: hidden; /* For animation ScrollReveal */
+main {
+  border: 1px solid #aea;
+  border-radius: 15px;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
 }
 
 /*=============== HEADER & NAV ===============*/
